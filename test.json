@@ -1,0 +1,13 @@
+[
+    { "timestamp": 0, "position": 1 },
+    { "timestamp": 1, "position": 2 },
+    { "timestamp": 2, "position": 3 },
+    { "timestamp": 3, "position": 4 },
+    { "timestamp": 4, "position": 5 },
+    { "timestamp": 5, "position": 4 },
+    { "timestamp": 6, "position": 3 },
+    { "timestamp": 7, "position": 2 },
+    { "timestamp": 8, "position": 3 },
+    { "timestamp": 9, "position": 4 },
+    { "timestamp": 10, "position": 5 }
+]

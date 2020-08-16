@@ -1,0 +1,43 @@
+{
+    "name": "Handy Helper",
+    "version": "1.0",
+    "description": "Handy Helper helps you locate existing videos compatible with your Handy device! It also allows you to upload configurations for videos not currently supported by Handy software.",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "declarativeContent",
+        "http://localhost:3001/*"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "scripts/background.js"
+        ],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "html/popup.html",
+        "default_icon": {
+            "16": "images/get_started16.png",
+            "32": "images/get_started32.png",
+            "48": "images/get_started48.png",
+            "128": "images/get_started128.png"
+        }
+    },
+    "icons": {
+        "16": "images/get_started16.png",
+        "32": "images/get_started32.png",
+        "48": "images/get_started48.png",
+        "128": "images/get_started128.png"
+    }
+}
